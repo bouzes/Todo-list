@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.todo-container{
+
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+text-align: center;
+background-color: aliceblue;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.input-group{
+    background-color: rgb(18, 20, 39);
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+}
+.input-group input , .input-group button{
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+}
+#task-list{
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    color: aliceblue;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 1px 3px 11px rgba(146, 146, 141, 0.096);
+    margin: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.068);
+}
+li button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    background-color: cadetblue;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
